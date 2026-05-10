@@ -12,20 +12,20 @@ class Nowline < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline-macos-arm64"
-      sha256 "3eb44fc0ac9fda9d455d24c2b64134a7e25cc407fba413a5859979d47eac9214"
+      sha256 "c01ac45f911868086224fcbd82b5ecc42a912ea709c9cd7bc292be56e4b5578c"
     else
       url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline-macos-x64"
-      sha256 "e7dcae90ce8bffd6bfd1fc034b67b38aab2ac0c783a45e67e97105e694b894dc"
+      sha256 "a20c9d5481d82623b5c072d3c9094541cad9971e5818d1b803cf21adc1906864"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline-linux-arm64"
-      sha256 "a6e6c78dddb3a520fa838fb41429be490c71d917081ab3c2b4ed2614ccfb2e06"
+      sha256 "9bcd74d45ceff20a05e685ff28e306693e3ba0f4cbc81a48acb1f36f3613d1ad"
     else
       url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline-linux-x64"
-      sha256 "79f1233e8f3858d06ceb65055efff1ae8fbfd63aa1e68bcf0102e6ec69d028ba"
+      sha256 "2b892ce0c7cbdbb76c6fb697fef7a95c47435988c87440d64f33a784e1535773"
     end
   end
 
