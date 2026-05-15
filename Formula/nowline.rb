@@ -1,7 +1,7 @@
 class Nowline < Formula
   desc "Parse, validate, and convert .nowline roadmap files"
   homepage "https://github.com/lolay/nowline"
-  version "0.2.0"
+  version "0.2.2"
   license "Apache-2.0"
 
   livecheck do
@@ -11,42 +11,42 @@ class Nowline < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline-macos-arm64"
-      sha256 "c01ac45f911868086224fcbd82b5ecc42a912ea709c9cd7bc292be56e4b5578c"
+      url "https://github.com/lolay/nowline/releases/download/v0.2.2/nowline-macos-arm64"
+      sha256 "a67f4b44a901002d96d5d7903d795cdf41b8e5648a0b005fe71552d204d644c4"
     else
-      url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline-macos-x64"
-      sha256 "a20c9d5481d82623b5c072d3c9094541cad9971e5818d1b803cf21adc1906864"
+      url "https://github.com/lolay/nowline/releases/download/v0.2.2/nowline-macos-x64"
+      sha256 "a0f9215584ece7da373637e386cd7edbcd824bac26d5b3a5d4cb86976281448b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline-linux-arm64"
-      sha256 "9bcd74d45ceff20a05e685ff28e306693e3ba0f4cbc81a48acb1f36f3613d1ad"
+      url "https://github.com/lolay/nowline/releases/download/v0.2.2/nowline-linux-arm64"
+      sha256 "660c665f916cff433f690ecb27ad7245861a52947d9d208ee6620dc710ac5b3d"
     else
-      url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline-linux-x64"
-      sha256 "2b892ce0c7cbdbb76c6fb697fef7a95c47435988c87440d64f33a784e1535773"
+      url "https://github.com/lolay/nowline/releases/download/v0.2.2/nowline-linux-x64"
+      sha256 "bcffea131f665ea0aaacbf9eba3a72d9819476fb8e3f52775898871908e5c9c0"
     end
   end
 
   resource "manpage" do
-    url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline.1"
-    sha256 "e21a594173f56e8ea82af016df2828fc2ee0342cf0340796463566c07e37c319"
+    url "https://github.com/lolay/nowline/releases/download/v0.2.2/nowline.1"
+    sha256 "7d8b737729980e0c1e162c6236f5ef452425b43a343ae45e257d5f1cf32f2f68"
   end
 
   resource "manpage5" do
-    url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline.5"
-    sha256 "803286750016d18dbb8e095e876f92b59268fae379291b14e4c6c3f715dd4f37"
+    url "https://github.com/lolay/nowline/releases/download/v0.2.2/nowline.5"
+    sha256 "70915450974cef72f8cc9bebb4ffc006a1fbb7bfee53ee44a61b9577626902b0"
   end
 
   resource "manpage-fr" do
-    url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline.fr.1"
-    sha256 "984ba4cc2449e57c6e6582510ba25288a2d25720d9b7bedd236db9f5a1286184"
+    url "https://github.com/lolay/nowline/releases/download/v0.2.2/nowline.fr.1"
+    sha256 "fab9f78b72f557219c8b388d454e1dc0220a0856a77dee278f58fc08cb704fe2"
   end
 
   resource "manpage-fr-5" do
-    url "https://github.com/lolay/nowline/releases/download/v0.2.0/nowline.fr.5"
-    sha256 "031d40bd852c8d5c2e03b225a0e13f165274b551e56dd89b5a590bbead6c72e2"
+    url "https://github.com/lolay/nowline/releases/download/v0.2.2/nowline.fr.5"
+    sha256 "00201367a0de7a0beb6f362ac34f1454b0a423bea9a8104ebd2b060273618f67"
   end
 
   def install
