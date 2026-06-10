@@ -1,7 +1,7 @@
 class Triage < Formula
   desc "The environment doctor - declarative prerequisite checks"
   homepage "https://github.com/lolay/triage"
-  version "0.3.0"
+  version "0.1.0"
   license "Apache-2.0"
 
   livecheck do
@@ -11,21 +11,21 @@ class Triage < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lolay/triage/releases/download/v0.3.0/triage_0.3.0_darwin_arm64.tar.gz"
-      sha256 "92013eaca63a4dee1a8563b8e08eed34ffa41c34069b0cbb8c742d05dbc8bc11"
+      url "https://github.com/lolay/triage/releases/download/v0.1.0/triage_0.1.0_darwin_arm64.tar.gz"
+      sha256 "8febe87110bbf6787a5377acb3bb7cf73db4503c8e4002b29ff6899c332c8dee"
     else
-      url "https://github.com/lolay/triage/releases/download/v0.3.0/triage_0.3.0_darwin_amd64.tar.gz"
-      sha256 "8a0d0500bb4a691f60eaf23f305beae72e0bdc0890025fd3a1cf43cfc02ad8c9"
+      url "https://github.com/lolay/triage/releases/download/v0.1.0/triage_0.1.0_darwin_amd64.tar.gz"
+      sha256 "e80b90e5120bf83c5d7718f840976220695a88189c1352caa9bbedb750717ffe"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lolay/triage/releases/download/v0.3.0/triage_0.3.0_linux_arm64.tar.gz"
-      sha256 "4bca3447270c606145552b2aa9fa72c3a840de10c983989cc5724614402de756"
+      url "https://github.com/lolay/triage/releases/download/v0.1.0/triage_0.1.0_linux_arm64.tar.gz"
+      sha256 "67680256744ee52da16d57bd7791baa8ba130b796381e3c4de9a16defa9d8aec"
     else
-      url "https://github.com/lolay/triage/releases/download/v0.3.0/triage_0.3.0_linux_amd64.tar.gz"
-      sha256 "340879d7a64a490505564f552e6e2a82064b882379207caf1b0b75058c006060"
+      url "https://github.com/lolay/triage/releases/download/v0.1.0/triage_0.1.0_linux_amd64.tar.gz"
+      sha256 "b6b51db487167fbe1a120f492dddb0afcb00e8268721adf82a5a46daab6fc948"
     end
   end
 
