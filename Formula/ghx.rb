@@ -1,7 +1,7 @@
 class Ghx < Formula
   desc "Clones and refreshes all repos for a GitHub organization"
   homepage "https://github.com/lolay/ghx"
-  version "0.4.1"
+  version "0.4.2"
   license "Apache-2.0"
 
   livecheck do
@@ -11,21 +11,21 @@ class Ghx < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lolay/ghx/releases/download/v0.4.1/ghx_0.4.1_darwin_arm64.tar.gz"
-      sha256 "52cfa9be0b4191c04b86cd210c3c72eb59e72645ca9cd0a999400cdf78f93d19"
+      url "https://github.com/lolay/ghx/releases/download/v0.4.2/ghx_0.4.2_darwin_arm64.tar.gz"
+      sha256 "e9e0f926336cc3540aec3d5ae398c70b6e42451a3f9c7e6dd22a7f876dd4da3e"
     else
-      url "https://github.com/lolay/ghx/releases/download/v0.4.1/ghx_0.4.1_darwin_amd64.tar.gz"
-      sha256 "8fe4947b292ac22eb1ec668fb507d3883ac1ba658f1aa7147595aa526c9326e3"
+      url "https://github.com/lolay/ghx/releases/download/v0.4.2/ghx_0.4.2_darwin_amd64.tar.gz"
+      sha256 "2f703d90e7307ff3edc9e5a5517fd166719207e7d2010ac860517d957c716196"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/lolay/ghx/releases/download/v0.4.1/ghx_0.4.1_linux_arm64.tar.gz"
-      sha256 "cdb800d1c57bef18f2a006ebb74fd8783b5fe654c35240d35c50dce826615f49"
+      url "https://github.com/lolay/ghx/releases/download/v0.4.2/ghx_0.4.2_linux_arm64.tar.gz"
+      sha256 "a00257689aaddf0386d0421b80717f4ffdbc5a5123b95992fd989424eef805e4"
     else
-      url "https://github.com/lolay/ghx/releases/download/v0.4.1/ghx_0.4.1_linux_amd64.tar.gz"
-      sha256 "29f513cf1767c7fc7395a1eb027cc440c76afab5980faf0e77b9f1e4ff36ddff"
+      url "https://github.com/lolay/ghx/releases/download/v0.4.2/ghx_0.4.2_linux_amd64.tar.gz"
+      sha256 "312c8fb16d09faee5fc484a16fd31ece04fa1b808917b68d66108bf403b839f3"
     end
   end
 
